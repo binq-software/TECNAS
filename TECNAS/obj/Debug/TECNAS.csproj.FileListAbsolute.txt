@@ -1,0 +1,12 @@
+c:\users\wesley\source\repos\TECNAS\TECNAS\bin\Debug\TECNAS.exe.config
+c:\users\wesley\source\repos\TECNAS\TECNAS\bin\Debug\TECNAS.exe
+c:\users\wesley\source\repos\TECNAS\TECNAS\bin\Debug\TECNAS.pdb
+c:\users\wesley\source\repos\TECNAS\TECNAS\obj\Debug\TECNAS.csprojAssemblyReference.cache
+c:\users\wesley\source\repos\TECNAS\TECNAS\obj\Debug\TECNAS.Properties.Resources.resources
+c:\users\wesley\source\repos\TECNAS\TECNAS\obj\Debug\TECNAS.csproj.GenerateResource.cache
+c:\users\wesley\source\repos\TECNAS\TECNAS\obj\Debug\TECNAS.csproj.CoreCompileInputs.cache
+c:\users\wesley\source\repos\TECNAS\TECNAS\obj\Debug\TECNAS.exe
+c:\users\wesley\source\repos\TECNAS\TECNAS\obj\Debug\TECNAS.pdb
+c:\users\wesley\source\repos\TECNAS\TECNAS\obj\Debug\TECNAS.Telas_Principais.TECNAS___Configurações.resources
+c:\users\wesley\source\repos\TECNAS\TECNAS\obj\Debug\TECNAS.Telas_Principais.TECNAS___Tela_Inicial.resources
+c:\users\wesley\source\repos\TECNAS\TECNAS\obj\Debug\TECNAS.Telas_Principais.TECNASmain.resources

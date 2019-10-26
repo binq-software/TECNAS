@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0E2C059D-08EC-4ABB-92A0-986F371B03AF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>TECNAS</RootNamespace>
+    <AssemblyName>TECNAS</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>TECNAS.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>TECNAS.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AutocompleteMenu">
+      <HintPath>..\..\..\..\Desktop\Projetos\Arduino Suite 2018 Recuperado\Arduino Suite 2018\Arduino Suite 2018\bin\x86\Release\AutocompleteMenu.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Speech" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\Global.cs" />
+    <Compile Include="Classes\Locutor.cs" />
+    <Compile Include="Componentes\EditorTexto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Componentes\EditorTexto.Designer.cs">
+      <DependentUpon>EditorTexto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Componentes\Gerenciador de Textos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Componentes\Gerenciador de Textos.Designer.cs">
+      <DependentUpon>Gerenciador de Textos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Componentes\MenuSuperior.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Componentes\MenuSuperior.Designer.cs">
+      <DependentUpon>MenuSuperior.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Componentes\ProgramadorFrases.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Componentes\ProgramadorFrases.Designer.cs">
+      <DependentUpon>ProgramadorFrases.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PoupUps\InstalarVozes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PoupUps\InstalarVozes.Designer.cs">
+      <DependentUpon>InstalarVozes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PoupUps\PoupUpTexto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PoupUps\PoupUpTexto.Designer.cs">
+      <DependentUpon>PoupUpTexto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Classes\Configuracoes.cs" />
+    <Compile Include="Telas Principais\TECNAS - Configurações.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telas Principais\TECNAS - Configurações.Designer.cs">
+      <DependentUpon>TECNAS - Configurações.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Telas Principais\TECNAS - Tela Inicial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telas Principais\TECNAS - Tela Inicial.Designer.cs">
+      <DependentUpon>TECNAS - Tela Inicial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Telas Principais\TECNAS - Tela Principal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telas Principais\TECNAS - Tela Principal.Designer.cs">
+      <DependentUpon>TECNAS - Tela Principal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Telas Principais\TECNASmain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Telas Principais\TECNASmain.Designer.cs">
+      <DependentUpon>TECNASmain.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Componentes\EditorTexto.resx">
+      <DependentUpon>EditorTexto.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Componentes\Gerenciador de Textos.resx">
+      <DependentUpon>Gerenciador de Textos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Componentes\MenuSuperior.resx">
+      <DependentUpon>MenuSuperior.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Componentes\ProgramadorFrases.resx">
+      <DependentUpon>ProgramadorFrases.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PoupUps\InstalarVozes.resx">
+      <DependentUpon>InstalarVozes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PoupUps\PoupUpTexto.resx">
+      <DependentUpon>PoupUpTexto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Telas Principais\TECNAS - Configurações.resx">
+      <DependentUpon>TECNAS - Configurações.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Telas Principais\TECNAS - Tela Inicial.resx">
+      <DependentUpon>TECNAS - Tela Inicial.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Telas Principais\TECNAS - Tela Principal.resx">
+      <DependentUpon>TECNAS - Tela Principal.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Telas Principais\TECNASmain.resx">
+      <DependentUpon>TECNASmain.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="TECNAS_Voice.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Recursos\Gerenciador de Textos\Renomear.png" />
+    <Content Include="Recursos\Globais\Abrir.png" />
+    <Content Include="Recursos\Menu Superior\Adicionar Interface.png" />
+    <Content Include="Recursos\Menu Superior\Dicionários.png" />
+    <Content Include="Recursos\Menu Superior\Teclado.png" />
+    <Content Include="Recursos\Programador Frases\Adicionar.png" />
+    <Content Include="Recursos\Globais\Falar.png" />
+    <Content Include="Recursos\Programador Frases\Remover.png" />
+    <Content Include="Recursos\Programador Frases\Salvar.png" />
+    <Content Include="Recursos\Software.png" />
+    <Content Include="Recursos\Configurações.png" />
+    <Content Include="Recursos\USB.jpg" />
+    <Content Include="TECNAS.ico" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

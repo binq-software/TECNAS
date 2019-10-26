@@ -1,0 +1,40 @@
+c:\users\wesley\source\repos\TECNAS\TECNAS\bin\x64\Debug\TECNAS.exe.config
+c:\users\wesley\source\repos\TECNAS\TECNAS\bin\x64\Debug\TECNAS.exe
+c:\users\wesley\source\repos\TECNAS\TECNAS\bin\x64\Debug\TECNAS.pdb
+c:\users\wesley\source\repos\TECNAS\TECNAS\obj\x64\Debug\TECNAS.Properties.Resources.resources
+c:\users\wesley\source\repos\TECNAS\TECNAS\obj\x64\Debug\TECNAS.Telas_Principais.TECNAS___Configurações.resources
+c:\users\wesley\source\repos\TECNAS\TECNAS\obj\x64\Debug\TECNAS.Telas_Principais.TECNAS___Tela_Inicial.resources
+c:\users\wesley\source\repos\TECNAS\TECNAS\obj\x64\Debug\TECNAS.Telas_Principais.TECNASmain.resources
+c:\users\wesley\source\repos\TECNAS\TECNAS\obj\x64\Debug\TECNAS.csproj.GenerateResource.cache
+c:\users\wesley\source\repos\TECNAS\TECNAS\obj\x64\Debug\TECNAS.csproj.CoreCompileInputs.cache
+c:\users\wesley\source\repos\TECNAS\TECNAS\obj\x64\Debug\TECNAS.exe
+c:\users\wesley\source\repos\TECNAS\TECNAS\obj\x64\Debug\TECNAS.pdb
+c:\users\wesley\source\repos\TECNAS\TECNAS\obj\x64\Debug\TECNAS.csprojAssemblyReference.cache
+C:\Users\Wesley\source\repos\TECNAS\TECNAS\obj\x64\Debug\TECNAS.Telas_Principais.TECNAS___Tela_Principal.resources
+C:\Users\Wesley\source\repos\TECNAS\TECNAS\obj\x64\Debug\TECNAS.Componentes.ProgramadorFrases.resources
+C:\Users\Wesley\source\repos\TECNAS\TECNAS\obj\x64\Debug\TECNAS.PoupUps.PoupUpTexto.resources
+C:\Users\Wesley\source\repos\TECNAS\TECNAS\obj\x64\Debug\TECNAS.Componentes.EditorTexto.resources
+C:\Users\Wesley\source\repos\TECNAS\TECNAS\obj\x64\Debug\TECNAS.Componentes.Gerenciador_de_Textos.resources
+C:\Users\Wesley\source\repos\TECNAS\TECNAS\bin\x64\Debug\AutocompleteMenu.dll
+C:\Users\Wesley\source\repos\TECNAS\TECNAS\obj\x64\Debug\TECNAS.csproj.CopyComplete
+C:\Users\Wesley\source\repos\TECNAS\TECNAS\obj\x64\Debug\TECNAS.Componentes.MenuSuperior.resources
+F:\Recovered data 02-13 11_37_57\ (G)\Users\Wesley\source\repos\TECNAS\TECNAS\bin\x64\Debug\TECNAS.exe.config
+F:\Recovered data 02-13 11_37_57\ (G)\Users\Wesley\source\repos\TECNAS\TECNAS\bin\x64\Debug\TECNAS.exe
+F:\Recovered data 02-13 11_37_57\ (G)\Users\Wesley\source\repos\TECNAS\TECNAS\bin\x64\Debug\TECNAS.pdb
+F:\Recovered data 02-13 11_37_57\ (G)\Users\Wesley\source\repos\TECNAS\TECNAS\obj\x64\Debug\TECNAS.csprojAssemblyReference.cache
+F:\Recovered data 02-13 11_37_57\ (G)\Users\Wesley\source\repos\TECNAS\TECNAS\obj\x64\Debug\TECNAS.Componentes.EditorTexto.resources
+F:\Recovered data 02-13 11_37_57\ (G)\Users\Wesley\source\repos\TECNAS\TECNAS\obj\x64\Debug\TECNAS.Componentes.Gerenciador_de_Textos.resources
+F:\Recovered data 02-13 11_37_57\ (G)\Users\Wesley\source\repos\TECNAS\TECNAS\obj\x64\Debug\TECNAS.Componentes.MenuSuperior.resources
+F:\Recovered data 02-13 11_37_57\ (G)\Users\Wesley\source\repos\TECNAS\TECNAS\obj\x64\Debug\TECNAS.Componentes.ProgramadorFrases.resources
+F:\Recovered data 02-13 11_37_57\ (G)\Users\Wesley\source\repos\TECNAS\TECNAS\obj\x64\Debug\TECNAS.PoupUps.PoupUpTexto.resources
+F:\Recovered data 02-13 11_37_57\ (G)\Users\Wesley\source\repos\TECNAS\TECNAS\obj\x64\Debug\TECNAS.Properties.Resources.resources
+F:\Recovered data 02-13 11_37_57\ (G)\Users\Wesley\source\repos\TECNAS\TECNAS\obj\x64\Debug\TECNAS.Telas_Principais.TECNAS___Configurações.resources
+F:\Recovered data 02-13 11_37_57\ (G)\Users\Wesley\source\repos\TECNAS\TECNAS\obj\x64\Debug\TECNAS.Telas_Principais.TECNAS___Tela_Inicial.resources
+F:\Recovered data 02-13 11_37_57\ (G)\Users\Wesley\source\repos\TECNAS\TECNAS\obj\x64\Debug\TECNAS.Telas_Principais.TECNAS___Tela_Principal.resources
+F:\Recovered data 02-13 11_37_57\ (G)\Users\Wesley\source\repos\TECNAS\TECNAS\obj\x64\Debug\TECNAS.Telas_Principais.TECNASmain.resources
+F:\Recovered data 02-13 11_37_57\ (G)\Users\Wesley\source\repos\TECNAS\TECNAS\obj\x64\Debug\TECNAS.csproj.GenerateResource.cache
+F:\Recovered data 02-13 11_37_57\ (G)\Users\Wesley\source\repos\TECNAS\TECNAS\obj\x64\Debug\TECNAS.csproj.CoreCompileInputs.cache
+F:\Recovered data 02-13 11_37_57\ (G)\Users\Wesley\source\repos\TECNAS\TECNAS\obj\x64\Debug\TECNAS.csproj.CopyComplete
+F:\Recovered data 02-13 11_37_57\ (G)\Users\Wesley\source\repos\TECNAS\TECNAS\obj\x64\Debug\TECNAS.exe
+F:\Recovered data 02-13 11_37_57\ (G)\Users\Wesley\source\repos\TECNAS\TECNAS\obj\x64\Debug\TECNAS.pdb
+F:\Recovered data 02-13 11_37_57\ (G)\Users\Wesley\source\repos\TECNAS\TECNAS\obj\x64\Debug\TECNAS.PoupUps.InstalarVozes.resources
